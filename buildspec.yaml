@@ -15,3 +15,8 @@ phases:
     commands:
       - echo Pushing Docker image...
       - docker push $ECR_REPOSITORY_URI:latest
+
+artifacts:
+  files:
+    - appspec.yml
+    - scripts/**/*
