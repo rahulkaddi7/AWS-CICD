@@ -50,9 +50,10 @@ services:
     depends_on:
       dagster-code:
         condition: service_healthy
-    command:
+    command: 
       - dagster-daemon
       - run
+      
       
 volumes:
   dagster_home:
