@@ -20,3 +20,4 @@ artifacts:
   files:
     - appspec.yml
     - scripts/**/*
+    - docker-compose.yaml
